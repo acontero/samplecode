@@ -31,13 +31,13 @@ Objective-C:
 	 Remote File Access.  
    This boolean method creates a connection to the server (which in the case of this app, is your home PC) and returns true if connection is successful and false otherwise.  I am not usually so stingy on code comments, but hopefully this is easy enough to follow.  
 
-C++ (these were hw assignments during my Algorithmic Problem Solving in C++ course from Spring 2012)
+C++ (these were hw assignments during my Algorithmic Problem Solving in C++ course from Spring 2012):
 1) memoized fibonacci program 
 2) recursive 8 queens program 
 3) shortestPath program 
 4) stable marriage program 
 
-Java (these were assignments during my Data Structures course from Fall 2012)
+Java (these were assignments during my Data Structures course from Fall 2012):
 1) Data Structures Project 1 - a program that takes in two large numbers, saves each into separate 
 	 linked lists and then performs multiplication on the two large numbers and outputs the product. 
 2) Data Structures Project 2 - a program that takes in a list of numbers and outputs a binary tree 
