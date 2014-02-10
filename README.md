@@ -3,13 +3,13 @@ samplecode
 
 On here you'll find the following folders of programs, organized by language or, in the case of AI and Distributed Systems, by course:
 
-Artificial Intelligence (these include my write-ups on each of the projects:
+Artificial Intelligence (Fall 2013 - these include my write-ups on each of the projects:
 1) HW1 - Implemented A* Algorithm to solve a series of 8-puzzle games
 2) HW2 - A program using Bayesian networks to learn missing data
 3) HW3 - Implemented Decision Tree Algorithm to model data from an online source.
 4) Nim Project - final project for this course for which I worked in a group, recreating the famous Nim Game. There is code for 2 possible strategies for the computer.  I have also included the .jar file to view the interactive GUI my group member created for the grade, based on the first strategy.
 
-Distributed Systems:
+Distributed Systems (Fall 2013):
 1) Project1 - Enacted a program that followed a narrative about visitors at Ellis Island attending 3 different lectures, each with Q&A sessions, speakers and a clock.  Each visitor tries to get into a movie session and when the session is maxed out, they try to get into another one.  This implementation makes use of monitors.
 2) Project2 - Implemented the same narrative as above, only this time with a multi-threaded server.
 
@@ -26,9 +26,8 @@ Python (assignments from the Advanced Programming Techniques Course I'm taking S
 4) qsort.py
    Working with a function that returns a tree with []'s representing the nodes and sub-tree, built on top of this, a search function, an insert function and a sorted function (which returns the numbers in the tree, sorted)
 
-Objective-C:
-1) iBox_initNetworkCommunication:  One of the methods I wrote for the app I created called iBox 
-	 Remote File Access.  
+Objective-C (while interning at TeliApp Summer 2012):
+1) iBox_initNetworkCommunication:  One of the methods I wrote for the app I created called iBox Remote File Access.  
 This boolean method creates a connection to the server (which in the case of this app, is your home PC) and returns true if connection is successful and false otherwise.  I am not usually so stingy on code comments, but hopefully this is easy enough to follow.  
 
 C++ (these were hw assignments during my Algorithmic Problem Solving in C++ course from Spring 2012):
