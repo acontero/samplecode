@@ -24,23 +24,20 @@ Python (assignments from the Advanced Programming Techniques Course I'm taking S
    This method returns that value.
    NOTE: assumes the values are distinct
 4) qsort.py
-	 Working with a function that returns a tree with []'s representing the nodes and sub-tree, built on top of this, a search function, an insert function and a sorted function (which returns the numbers in the tree, sorted)
+   Working with a function that returns a tree with []'s representing the nodes and sub-tree, built on top of this, a search function, an insert function and a sorted function (which returns the numbers in the tree, sorted)
 
 Objective-C:
 1) iBox_initNetworkCommunication:  One of the methods I wrote for the app I created called iBox 
 	 Remote File Access.  
-   This boolean method creates a connection to the server (which in the case of this app, is your home PC) and returns true if connection is successful and false otherwise.  I am not usually so stingy on code comments, but hopefully this is easy enough to follow.  
+This boolean method creates a connection to the server (which in the case of this app, is your home PC) and returns true if connection is successful and false otherwise.  I am not usually so stingy on code comments, but hopefully this is easy enough to follow.  
 
-C++ (these were hw assignments during my Algorithmic Problem Solving in C++ course from Spring 2012)
+C++ (these were hw assignments during my Algorithmic Problem Solving in C++ course from Spring 2012):
 1) memoized fibonacci program 
 2) recursive 8 queens program 
 3) shortestPath program 
 4) stable marriage program 
 
-Java (these were assignments during my Data Structures course from Fall 2012)
-1) Data Structures Project 1 - a program that takes in two large numbers, saves each into separate 
-	 linked lists and then performs multiplication on the two large numbers and outputs the product. 
-2) Data Structures Project 2 - a program that takes in a list of numbers and outputs a binary tree 
-	 of those numbers. (This was an assignment during my Data Structures course from Fall 2012)
-3) Data Structures Project 3 - a program that does the Chromatic Number problem. It colors a graph 
-	 in such a way that no two adjacent nodes have the same color. (This was an assignment during my Data Structures course from Fall 2012)
+Java (these were assignments during my Data Structures course from Fall 2012):
+1) Data Structures Project 1 - a program that takes in two large numbers, saves each into separate linked lists and then performs multiplication on the two large numbers and outputs the product. 
+2) Data Structures Project 2 - a program that takes in a list of numbers and outputs a binary tree of those numbers. (This was an assignment during my Data Structures course from Fall 2012)
+3) Data Structures Project 3 - a program that does the Chromatic Number problem. It colors a graph in such a way that no two adjacent nodes have the same color. (This was an assignment during my Data Structures course from Fall 2012)
