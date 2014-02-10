@@ -1,0 +1,19 @@
+README for Contero.A.HW3
+
+To compile these programs in Eclipse, go to Run-->Run Configurations, select Main as the main class for this project, 
+then in the arguments tab type "input.txt" followed by "output.txt" (in quotations).  It should look like this in the arguments text box:
+
+"input.txt" "output.txt"
+
+When you run the program you'll see a series of records (from the testing data), the correct prediction and the decision tree's prediction.
+Sometimes the decision tree prediction will be empty and it will look like this in the output file:
+
+buyingPrice = 0  maintPrice = 0  doors = 0  persons = 0  lug_boot = 0  safety = 2  acceptabilityClass = 0  
+Answer is supposed to be: unacc
+Answer is actually: 
+Prediction was: false
+
+If you see this, please run the program until you get a value for "Answer is actually"
+Then scroll to the bottom for a list of accuracies for each percentage of learningData.
+
+The results are in my report as well.

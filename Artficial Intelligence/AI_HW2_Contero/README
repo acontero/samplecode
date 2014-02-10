@@ -1,0 +1,13 @@
+README for Contero.A.HW2
+
+To compile these programs in Eclipse, go to Run-->Run Configurations, select Main as the main class for this project, 
+then in the arguments tab include which of the input files you'd like to run in quotations as such: "hw2dataset_10.txt" 
+followed by "output.txt" (also in quotations).  It should look like this in the arguments text box:
+
+"hw2dataset_10.txt" "output.txt"
+
+The code is set up to run the initial test parameters you gave in the instructions.  If you'd like to run one of the 
+sets of parameters I made, you will have to comment out the current parameters and uncomment out one of the other sets.
+The parameters are at the beginning of the program.
+
+Thanks!

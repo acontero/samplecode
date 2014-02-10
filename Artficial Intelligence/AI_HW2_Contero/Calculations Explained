@@ -1,0 +1,38 @@
+Angelica Contero
+AI - Fall 2013
+Project #2 Addendum
+
+Probabilities were calculated as follows:
+
+UPDATED DATA SET PROBABILITIES (stored in the probabilitiesOfEachDataPoint array)
+If the data point in the updated data set stems from a missing data point in the original set, 
+then for each of the two rows created for that missing data point, the following calculation is performed:
+
+numerator = P(G) * P(W|G) * P(H|G)
+denominator = P(G=0) * P(W|G=0) * P(H|G=0) + P(G=1) * P(W|G=1) * P(H|G=1);
+answer = numerator/denominator;
+
+If the data point does not stem from a missing data point in the original set, then its probability is calculated as follows:
+answer = G(P) * P(W|G) * P(H|G)
+
+CALCULATION OF NEW PARAMETERS:
+New P(G) values are calculated as follows:
+
+Let's say I'm calculated a new P(G=0).  Let's keep a running total we will call gZeroCount, which is a float.
+I iterate through the probabilitiesOfEachDataPoint array and when I come upon a row that has G=0, if this row is associated with 
+missing data point, I add this probability of that row to my gZeroCount total.  If it isn't associated with a missing data point, I add 
+1.0 to my gZeroCount instead. gZeroCount, divided by 200, is my new probability for P(G=0).  P(G=1) is calculated similarly.
+
+New P(W|G) values are calculated as follows:
+
+This is done in a similar manner to P(G). Let's say we are finding P(W=0|G=0). The new probability will be called answer, and it's
+a float.  I iterate through the probabilitiesOfEachDataPoint array and when I come upon a row that has W=0 and G=0, if this row 
+is associated with a missing data point, I add the probability of that row to the answer.  If it isn't associated with a missing 
+data point, I add 1.0 to the answer instead.  My final answer total, divided by gZeroCount calculated above, will be the new 
+probability.  Likewise, for P(W=0|G=1) you will need gOneCount which would have been calculated in the process of finding a new 
+P(G=1).
+
+New P(H|G) values are calculated as follows:
+
+These are done in the same exact manner as the new P(W|G) values, except of course that you are iterating through the array looking
+for when H=0 or H=1 and the appropriate G value.  Calculations will require gZeroCount and gOneCount as well. 

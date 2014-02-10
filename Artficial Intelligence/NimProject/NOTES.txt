@@ -1,0 +1,26 @@
+Setup function
+	Generate a new "gameboard" condition
+
+XOR function - (Steve) 
+	calculate if the current state is a winning or losing state
+	Will use this function to determine the current state of the board when it's your turn and also 
+	to determine whether each possible move is winning or losing
+	
+DecisionTree function, returns Decision (which stack and how many)
+	determine the optimal move using a heuristic function from all the possible moves in the current row of alpha-beta pruning tree
+	Will need to build a tree...
+	There are three main branches for each turn, each branch corresponds to one of the three stacks:
+		Each branch branches off further in considering all possible number of muffins to take from the particular branch at hand
+	
+	NOTE: if you are in a winning state, the tree should get all possible moves that will create a losing state for your opponent 
+	(use the XOR function) and then choose from among those (this would be an OPTIMAL MOVE)
+	IN PRUNING TREE: we may just stop searching once we find a move that will result ina losing state
+	
+ComputerMakesMove
+	Update gameboard to reflect the choice from Decision function
+
+UserMakesMove
+	Ask user for his/her input.
+	User writes: stack 1 take 2, for example?
+	Update gameboard to reflect the user's choice
+	

@@ -1,0 +1,105 @@
+Initial Parameters for this Learning:
+
+initial P(G=0) = 0.7
+initial P(G=1) = 0.3
+initial P(W=0|G=0) = 0.8
+initial P(W=0|G=1) = 0.4
+initial P(W=1|G=0) = 0.2
+initial P(W=1|G=1) = 0.6
+initial P(H=0|G=0) = 0.7
+initial P(H=0|G=1) = 0.3
+initial P(H=1|G=0) = 0.3
+initial P(H=1|G=1) = 0.7
+
+Number of missing data points = 15
+
+# ITERATIONS = 1
+COMPARISON = 100.0
+
+Newly calculated values for next iteration:
+new P(G=0) = 0.6440337
+new P(G=1) = 0.3559663
+new P(W=0|G=0) = 0.79314166
+new P(W=0|G=1) = 0.34888142
+new P(W=1|G=0) = 0.20685826
+new P(W=1|G=1) = 0.6511187
+new P(H=0|G=0) = 0.6609908
+new P(H=0|G=1) = 0.2649118
+new P(H=1|G=0) = 0.3390092
+new P(H=1|G=1) = 0.7350883
+
+# ITERATIONS = 2
+COMPARISON = 5.9844723
+
+Newly calculated values for next iteration:
+new P(G=0) = 0.6425691
+new P(G=1) = 0.35743088
+new P(W=0|G=0) = 0.7943618
+new P(W=0|G=1) = 0.3485081
+new P(W=1|G=0) = 0.20563813
+new P(W=1|G=1) = 0.6514918
+new P(H=0|G=0) = 0.66184676
+new P(H=0|G=1) = 0.26499587
+new P(H=1|G=0) = 0.33815327
+new P(H=1|G=1) = 0.73500407
+
+# ITERATIONS = 3
+COMPARISON = 0.11460304
+
+Newly calculated values for next iteration:
+new P(G=0) = 0.64246947
+new P(G=1) = 0.35753047
+new P(W=0|G=0) = 0.794431
+new P(W=0|G=1) = 0.34850836
+new P(W=1|G=0) = 0.20556913
+new P(W=1|G=1) = 0.6514916
+new P(H=0|G=0) = 0.6619164
+new P(H=0|G=1) = 0.26498136
+new P(H=1|G=0) = 0.33808368
+new P(H=1|G=1) = 0.7350186
+
+# ITERATIONS = 4
+COMPARISON = 0.008042794
+
+Newly calculated values for next iteration:
+new P(G=0) = 0.6424625
+new P(G=1) = 0.3575375
+new P(W=0|G=0) = 0.7944349
+new P(W=0|G=1) = 0.34851003
+new P(W=1|G=0) = 0.20556514
+new P(W=1|G=1) = 0.65149003
+new P(H=0|G=0) = 0.6619218
+new P(H=0|G=1) = 0.26497948
+new P(H=1|G=0) = 0.33807826
+new P(H=1|G=1) = 0.7350206
+
+# ITERATIONS = 5
+COMPARISON = 5.7561696E-4
+
+Newly calculated values for next iteration:
+new P(G=0) = 0.642462
+new P(G=1) = 0.35753804
+new P(W=0|G=0) = 0.794435
+new P(W=0|G=1) = 0.34851027
+new P(W=1|G=0) = 0.20556489
+new P(W=1|G=1) = 0.6514898
+new P(H=0|G=0) = 0.6619222
+new P(H=0|G=1) = 0.26497933
+new P(H=1|G=0) = 0.33807778
+new P(H=1|G=1) = 0.73502076
+
+# ITERATIONS = 6
+COMPARISON = 4.2829663E-5
+
+Newly calculated values for next iteration:
+new P(G=0) = 0.64246196
+new P(G=1) = 0.35753807
+new P(W=0|G=0) = 0.79443514
+new P(W=0|G=1) = 0.3485103
+new P(W=1|G=0) = 0.20556489
+new P(W=1|G=1) = 0.6514898
+new P(H=0|G=0) = 0.6619223
+new P(H=0|G=1) = 0.2649793
+new P(H=1|G=0) = 0.33807778
+new P(H=1|G=1) = 0.7350207
+
